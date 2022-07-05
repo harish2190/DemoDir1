@@ -5,14 +5,7 @@
 			{
 				"name": "Excel_Copy",
 				"type": "Copy",
-				"dependsOn": [
-					{
-						"activity": "Lookup_Truncate",
-						"dependencyConditions": [
-							"Succeeded"
-						]
-					}
-				],
+				"dependsOn": [],
 				"policy": {
 					"timeout": "7.00:00:00",
 					"retry": 0,
@@ -169,31 +162,6 @@
 						"type": "DatasetReference"
 					}
 				]
-			},
-			{
-				"name": "Lookup_Truncate",
-				"type": "Lookup",
-				"dependsOn": [],
-				"policy": {
-					"timeout": "7.00:00:00",
-					"retry": 0,
-					"retryIntervalInSeconds": 30,
-					"secureOutput": false,
-					"secureInput": false
-				},
-				"userProperties": [],
-				"typeProperties": {
-					"source": {
-						"type": "AzureSqlSource",
-						"sqlReaderQuery": "TRUNCATE TABLE EMPLOYEE_PROFILE_STG;",
-						"queryTimeout": "02:00:00",
-						"partitionOption": "None"
-					},
-					"dataset": {
-						"referenceName": "AzureSql_Karifactory",
-						"type": "DatasetReference"
-					}
-				}
 			}
 		],
 		"annotations": []
