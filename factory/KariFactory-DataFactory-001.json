@@ -1,0 +1,9 @@
+{
+	"name": "KariFactory-DataFactory-001",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "fb86e5bc-524b-40c5-9674-dafb56fd2ff2",
+		"tenantId": "654cd658-ac65-4837-8b74-9be5e25e30d2"
+	}
+}
