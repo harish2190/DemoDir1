@@ -1,5 +1,5 @@
 {
-	"name": "pipeline1",
+	"name": "Excel_to_DB_Pipeline",
 	"properties": {
 		"activities": [
 			{
