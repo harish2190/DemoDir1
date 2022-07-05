@@ -52,8 +52,8 @@
 								},
 								"sink": {
 									"name": "employee_id",
-									"type": "Int16",
-									"physicalType": "smallint"
+									"type": "String",
+									"physicalType": "nvarchar"
 								}
 							},
 							{
@@ -100,8 +100,8 @@
 								},
 								"sink": {
 									"name": "birth_date",
-									"type": "DateTime",
-									"physicalType": "date"
+									"type": "String",
+									"physicalType": "nvarchar"
 								}
 							},
 							{
@@ -124,8 +124,8 @@
 								},
 								"sink": {
 									"name": "annual_salary",
-									"type": "Int32",
-									"physicalType": "int"
+									"type": "String",
+									"physicalType": "nvarchar"
 								}
 							},
 							{

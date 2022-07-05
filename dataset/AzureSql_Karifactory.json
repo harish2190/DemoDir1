@@ -10,8 +10,7 @@
 		"schema": [
 			{
 				"name": "employee_id",
-				"type": "smallint",
-				"precision": 5
+				"type": "nvarchar"
 			},
 			{
 				"name": "first_name",
@@ -27,7 +26,7 @@
 			},
 			{
 				"name": "birth_date",
-				"type": "date"
+				"type": "nvarchar"
 			},
 			{
 				"name": "employment_status",
@@ -35,8 +34,7 @@
 			},
 			{
 				"name": "annual_salary",
-				"type": "int",
-				"precision": 10
+				"type": "nvarchar"
 			},
 			{
 				"name": "tax_file_no",
