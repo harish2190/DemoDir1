@@ -1,0 +1,51 @@
+{
+	"name": "AzureSql_Karifactory",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase_employee_profile",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "employee_id",
+				"type": "smallint",
+				"precision": 5
+			},
+			{
+				"name": "first_name",
+				"type": "nvarchar"
+			},
+			{
+				"name": "last_name",
+				"type": "nvarchar"
+			},
+			{
+				"name": "gender",
+				"type": "nvarchar"
+			},
+			{
+				"name": "birth_date",
+				"type": "date"
+			},
+			{
+				"name": "employment_status",
+				"type": "nvarchar"
+			},
+			{
+				"name": "annual_salary",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "tax_file_no",
+				"type": "nvarchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "employee_profile_stg"
+		}
+	}
+}
