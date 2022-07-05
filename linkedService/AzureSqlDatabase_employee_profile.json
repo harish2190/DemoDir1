@@ -1,0 +1,12 @@
+{
+	"name": "AzureSqlDatabase_employee_profile",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"connectionString": "integrated security=False;encrypt=True;connection timeout=30;data source=kf-server-001.database.windows.net;initial catalog=karifactory;user id=karifactory",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDZBMkEyQjNFLUREOEItNDcwNS1BQzU5LTRDN0E5RDc4MDdGQV8wOGFkZWEzZC00N2M1LTQ1YTktYmM0YS02MGU2MTBjODU5MjciDQp9"
+		}
+	}
+}
