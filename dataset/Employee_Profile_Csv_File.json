@@ -1,5 +1,5 @@
 {
-	"name": "DelimitedText1",
+	"name": "Employee_Profile_Csv_File",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "AzureBlobStorage1",
